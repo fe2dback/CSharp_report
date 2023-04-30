@@ -22,8 +22,6 @@ namespace Pr_1
             Circle_tool c2 = new Circle_tool(); // 원 인스턴스 생성
             c2.circle();
             check(c1.data[0], c1.data[1], c1.data[2], c2.data[0], c2.data[1], c2.data[2]); // 겹침 체크
-
-
         }
 
 
