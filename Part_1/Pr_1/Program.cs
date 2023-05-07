@@ -12,20 +12,21 @@
 namespace Pr_1
 {
 
-
+    #region main
     class main
     {
+        #region main method
         public static void Main(string[] args)
         {
-            Circle_tool c1 = new Circle_tool(); // 원 인스턴스 생성
+            Circle_tool c1 = new Circle_tool(); // 원1 인스턴스 생성
             c1.circle();
-            Circle_tool c2 = new Circle_tool(); // 원 인스턴스 생성
+            Circle_tool c2 = new Circle_tool(); // 원2 인스턴스 생성
             c2.circle();
             check(c1.data[0], c1.data[1], c1.data[2], c2.data[0], c2.data[1], c2.data[2]); // 겹침 체크
         }
+        #endregion
 
-
-
+        #region overwrap check
         static void check(int x1, int y1, int r1, int x2, int y2, int r2) // 겹침 확인 기능
         {
             if ((x1-x2) * (x1-x2) + (y1-y2)*(y1-y2) < (r1 + r2) * (r1 + r2)) //원의 교차 여부 공식
@@ -46,8 +47,9 @@ namespace Pr_1
             }
 
         }
+        #endregion
 
-
+        #region gravity check
         static void gravity(int x1, int y1, int r1, int x2, int y2, int r2) // 밀림 기능
         {
             if (x2 > x1 && y2 > y1) // x2 좌표와 y2 좌표가 크면 오른쪽 위로 이동
@@ -107,28 +109,33 @@ namespace Pr_1
                 Console.WriteLine("error");
             }
         }
+        #endregion
+
+        
+    }
+    #endregion
+
+    #region make circle class
+    public class Circle_tool //원 클래스
+    {
+        public int[] data = new int[3]; //데이터 배열
 
 
-        public class Circle_tool //원 클래스
+        public void circle()
         {
-            public int[] data = new int[3]; //데이터 배열
-
-
-            public void circle()
-            {
-                int[] board = new int[2]; //좌표값과 반지름값을 리턴할 배열
-                Random rand = new Random(); // 랜덤 클래스
-                int R = rand.Next(1, 10); // 반지름 
-                int P1 = rand.Next(1, 10); // x 좌표
-                int P2 = rand.Next(1, 10); // y 좌표
-                int size = (int)Math.PI * (R * R); // 원의 크기(int)
-                this.data[0] = P1; // data1 = x
-                this.data[1] = P2; // data2 = y
-                this.data[2] = R; // data 3= r
-                //this 3줄은 데이터 배열을 가르킴
-            }
+            int[] board = new int[2]; //좌표값과 반지름값을 리턴할 배열
+            Random rand = new Random(); // 랜덤 클래스
+            int R = rand.Next(1, 10); // 반지름 
+            int P1 = rand.Next(1, 10); // x 좌표
+            int P2 = rand.Next(1, 10); // y 좌표
+            int size = (int)Math.PI * (R * R); // 원의 크기(int)
+            this.data[0] = P1; // data1 = x
+            this.data[1] = P2; // data2 = y
+            this.data[2] = R; // data 3= r
+                              //this 3줄은 데이터 배열을 가르킴
         }
     }
+    #endregion
 }
 
 
