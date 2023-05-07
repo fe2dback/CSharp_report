@@ -1,0 +1,15 @@
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\tuter\D_0507\bin\Debug\net6.0\D_0507.exe
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\tuter\D_0507\bin\Debug\net6.0\D_0507.deps.json
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\tuter\D_0507\bin\Debug\net6.0\D_0507.runtimeconfig.json
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\tuter\D_0507\bin\Debug\net6.0\D_0507.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\tuter\D_0507\bin\Debug\net6.0\D_0507.pdb
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\tuter\D_0507\obj\Debug\net6.0\D_0507.csproj.AssemblyReference.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\tuter\D_0507\obj\Debug\net6.0\D_0507.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\tuter\D_0507\obj\Debug\net6.0\D_0507.AssemblyInfoInputs.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\tuter\D_0507\obj\Debug\net6.0\D_0507.AssemblyInfo.cs
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\tuter\D_0507\obj\Debug\net6.0\D_0507.csproj.CoreCompileInputs.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\tuter\D_0507\obj\Debug\net6.0\D_0507.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\tuter\D_0507\obj\Debug\net6.0\refint\D_0507.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\tuter\D_0507\obj\Debug\net6.0\D_0507.pdb
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\tuter\D_0507\obj\Debug\net6.0\D_0507.genruntimeconfig.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\tuter\D_0507\obj\Debug\net6.0\ref\D_0507.dll
