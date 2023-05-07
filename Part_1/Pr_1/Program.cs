@@ -111,13 +111,13 @@ namespace Pr_1
 
         public class Circle_tool //원 클래스
         {
-            public int[] data = new int[3];
+            public int[] data = new int[3]; //데이터 배열
 
 
             public void circle()
             {
-                int[] board = new int[2];
-                Random rand = new Random();
+                int[] board = new int[2]; //좌표값과 반지름값을 리턴할 배열
+                Random rand = new Random(); // 랜덤 클래스
                 int R = rand.Next(1, 10); // 반지름 
                 int P1 = rand.Next(1, 10); // x 좌표
                 int P2 = rand.Next(1, 10); // y 좌표
@@ -125,6 +125,7 @@ namespace Pr_1
                 this.data[0] = P1; // data1 = x
                 this.data[1] = P2; // data2 = y
                 this.data[2] = R; // data 3= r
+                //this 3줄은 데이터 배열을 가르킴
             }
         }
     }
