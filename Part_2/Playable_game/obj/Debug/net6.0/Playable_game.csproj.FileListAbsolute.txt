@@ -1,0 +1,15 @@
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Part_2\Playable_game\bin\Debug\net6.0\Playable_game.exe
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Part_2\Playable_game\bin\Debug\net6.0\Playable_game.deps.json
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Part_2\Playable_game\bin\Debug\net6.0\Playable_game.runtimeconfig.json
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Part_2\Playable_game\bin\Debug\net6.0\Playable_game.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Part_2\Playable_game\bin\Debug\net6.0\Playable_game.pdb
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Part_2\Playable_game\obj\Debug\net6.0\Playable_game.csproj.AssemblyReference.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Part_2\Playable_game\obj\Debug\net6.0\Playable_game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Part_2\Playable_game\obj\Debug\net6.0\Playable_game.AssemblyInfoInputs.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Part_2\Playable_game\obj\Debug\net6.0\Playable_game.AssemblyInfo.cs
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Part_2\Playable_game\obj\Debug\net6.0\Playable_game.csproj.CoreCompileInputs.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Part_2\Playable_game\obj\Debug\net6.0\Playable_game.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Part_2\Playable_game\obj\Debug\net6.0\refint\Playable_game.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Part_2\Playable_game\obj\Debug\net6.0\Playable_game.pdb
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Part_2\Playable_game\obj\Debug\net6.0\Playable_game.genruntimeconfig.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Part_2\Playable_game\obj\Debug\net6.0\ref\Playable_game.dll
