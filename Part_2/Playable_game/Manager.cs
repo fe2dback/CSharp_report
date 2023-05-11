@@ -9,7 +9,13 @@
             {
                 play.start();
             }
-            
+            /*
+            Car car = new Car("14하5099");
+            car.SetInTime();
+            car.Park();
+            car.SetOutTime();
+            car.FeeSettle();
+            */
         }
     }
 }

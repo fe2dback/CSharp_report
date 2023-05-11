@@ -3,17 +3,16 @@
 //플레이어(P)가 방향키로 돌아다니면서 다 먹으면 클리어 하는 게임 제작(플러에어가 화면을 벗어나면 반대방향에서 나오기)
 namespace Playable_game
 {
-
-
     class onGame
     {
         #region value
-        static int player_start_x = 5;
-        static int player_start_y = 5;
+        
         static int Goal = 10;
         static int Score = 0;
         static int onboard_x = 50;
-        static int onboard_y = 20; 
+        static int onboard_y = 20;
+        static int player_start_x = onboard_x/2;
+        static int player_start_y = onboard_y/2;
         static int player_pos_x;
         static int player_pos_y;
         static bool[,] board = new bool[onboard_x, onboard_y];
@@ -25,6 +24,7 @@ namespace Playable_game
         #region 시작옵션
         static void start_opt()
         {
+            //Console.SetBufferSize(250,250);
             map();
             player_pos_x = player_start_x;
             player_pos_y = player_start_y;
@@ -52,11 +52,10 @@ namespace Playable_game
             {
                 
                 player_move();
-                player_check();
-                Console.SetCursorPosition(50, 5);
-                Console.Write($"{player_pos_x},{player_pos_y}");
-                Console.SetCursorPosition(50, 6);
-                Console.Write(Score);
+                Console.SetCursorPosition(56, 5);
+                Console.WriteLine($"Pos : {player_pos_x},{player_pos_y} ");
+                Console.SetCursorPosition(56, 6);
+                Console.Write($"Score : {Score}");
 
 
 
@@ -64,7 +63,7 @@ namespace Playable_game
                 {
                     Console.Clear();
                     Console.WriteLine("Clear");
-                    Console.WriteLine("Replay : R");
+                    Console.Write("Replay : R");
                     dead = true;
                     playing = false;
                     replay = true;
@@ -93,6 +92,22 @@ namespace Playable_game
         static void player_check()
         {
             
+            if(player_pos_x > onboard_x-1)
+            {
+                player_pos_x = 1;
+            }
+            else if (player_pos_x < 1)
+            {
+                player_pos_x = onboard_x-1;
+            }
+            else if (player_pos_y > onboard_y-1)
+            {
+                player_pos_y = 1;
+            }
+            else if (player_pos_y < 1)
+            {
+                player_pos_y = onboard_y-1;
+            }
 
         }
         #endregion
@@ -101,40 +116,26 @@ namespace Playable_game
         static void player_move()
         {
             ConsoleKeyInfo player_key = Console.ReadKey();
-
+            Console.SetCursorPosition(player_pos_x, player_pos_y);
+            Console.Write(" ");
             switch (player_key.Key)
             {
                 case ConsoleKey.UpArrow:
                     if (dead == false)
                     {
                         player_pos_y--;
-                        Console.SetCursorPosition(player_pos_x, player_pos_y+1);
-                        Console.Write(" ");
-                        Console.SetCursorPosition(player_pos_x, player_pos_y);
-                        Console.Write("P");
-                        score();
                     }
                     break;
                 case ConsoleKey.DownArrow:
                     if (dead == false)
                     {
                         player_pos_y++;
-                        Console.SetCursorPosition(player_pos_x, player_pos_y-1);
-                        Console.Write(" ");
-                        Console.SetCursorPosition(player_pos_x, player_pos_y);
-                        Console.Write("P");
-                        score();
                     }
                         break;
                 case ConsoleKey.LeftArrow:
                     if (dead == false)
                     {
                         player_pos_x--;
-                        Console.SetCursorPosition(player_pos_x+1, player_pos_y);
-                        Console.Write(" ");
-                        Console.SetCursorPosition(player_pos_x, player_pos_y);
-                        Console.Write("P");
-                        score();
                     }
                     break;
 
@@ -142,11 +143,6 @@ namespace Playable_game
                     if (dead == false)
                     {
                         player_pos_x++;
-                        Console.SetCursorPosition(player_pos_x, player_pos_y);
-                        Console.Write("P");
-                        Console.SetCursorPosition(player_pos_x-1, player_pos_y);
-                        Console.Write(" ");
-                        score();
                     }
                     break;
                 case ConsoleKey.R:
@@ -164,6 +160,11 @@ namespace Playable_game
                 default:
                     break;
             }
+            player_check();
+            Console.SetCursorPosition(player_pos_x, player_pos_y);
+            Console.Write("P");
+            score();
+            
 
         }
         #endregion
@@ -176,8 +177,8 @@ namespace Playable_game
             int Pos_1, Pos_2;
             for (int i = 0; i < Goal; i++)
             {
-                Pos_1 = random.Next(0, onboard_x);
-                Pos_2 = random.Next(0, onboard_y);
+                Pos_1 = random.Next(1, onboard_x);
+                Pos_2 = random.Next(1, onboard_y);
                 Console.SetCursorPosition(Pos_1, Pos_2);
                 board[Pos_1, Pos_2] = true;
                 if (board[Pos_1, Pos_2] == true)
