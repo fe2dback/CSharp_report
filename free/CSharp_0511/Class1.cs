@@ -9,8 +9,12 @@ namespace CSharp_0511
 
     class Box
     {
-        private int id;
 
+        private int id2;
+        public int Id2 { get; set; }
+
+
+        private int id;
         public int Id
         {
             get { return id; }
