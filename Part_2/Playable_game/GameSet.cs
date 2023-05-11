@@ -6,7 +6,7 @@ namespace Playable_game
     class onGame
     {
         #region value
-        
+
         static int Goal = 10;
         static int Score = 0;
         static int onboard_x = 50;
@@ -19,6 +19,7 @@ namespace Playable_game
         static bool replay = false;
         static bool playing = true;
         static bool dead = false;
+        static float timer = 0f;
         #endregion
 
         #region 시작옵션
@@ -39,7 +40,9 @@ namespace Playable_game
 
             while (playing == true)
             {
+                
                 Playing();
+                
             }
         }
         #endregion
@@ -50,13 +53,12 @@ namespace Playable_game
             start_opt();
             while (true)
             {
-                
                 player_move();
                 Console.SetCursorPosition(56, 5);
                 Console.WriteLine($"Pos : {player_pos_x},{player_pos_y} ");
                 Console.SetCursorPosition(56, 6);
                 Console.Write($"Score : {Score}");
-
+                
 
 
                 if (Score == Goal)
@@ -69,6 +71,7 @@ namespace Playable_game
                     replay = true;
                     Score = 0;
                 }
+                
             }
         }
         #endregion
@@ -91,8 +94,8 @@ namespace Playable_game
         #region 범위 체크
         static void player_check()
         {
-            
-            if(player_pos_x > onboard_x-1)
+
+            if (player_pos_x > onboard_x-1)
             {
                 player_pos_x = 1;
             }
@@ -131,7 +134,7 @@ namespace Playable_game
                     {
                         player_pos_y++;
                     }
-                        break;
+                    break;
                 case ConsoleKey.LeftArrow:
                     if (dead == false)
                     {
@@ -164,7 +167,7 @@ namespace Playable_game
             Console.SetCursorPosition(player_pos_x, player_pos_y);
             Console.Write("P");
             score();
-            
+
 
         }
         #endregion
