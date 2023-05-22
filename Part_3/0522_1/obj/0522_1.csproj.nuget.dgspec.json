@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xnqpp\\Documents\\GitHub\\CSharp_report\\Part_2\\Playable_game\\Playable_game.csproj": {}
+    "C:\\Users\\xnqpp\\Documents\\GitHub\\CSharp_report\\Part_3\\0522_1\\0522_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xnqpp\\Documents\\GitHub\\CSharp_report\\Part_2\\Playable_game\\Playable_game.csproj": {
+    "C:\\Users\\xnqpp\\Documents\\GitHub\\CSharp_report\\Part_3\\0522_1\\0522_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xnqpp\\Documents\\GitHub\\CSharp_report\\Part_2\\Playable_game\\Playable_game.csproj",
-        "projectName": "Playable_game",
-        "projectPath": "C:\\Users\\xnqpp\\Documents\\GitHub\\CSharp_report\\Part_2\\Playable_game\\Playable_game.csproj",
+        "projectUniqueName": "C:\\Users\\xnqpp\\Documents\\GitHub\\CSharp_report\\Part_3\\0522_1\\0522_1.csproj",
+        "projectName": "0522_1",
+        "projectPath": "C:\\Users\\xnqpp\\Documents\\GitHub\\CSharp_report\\Part_3\\0522_1\\0522_1.csproj",
         "packagesPath": "C:\\Users\\xnqpp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xnqpp\\Documents\\GitHub\\CSharp_report\\Part_2\\Playable_game\\obj\\",
+        "outputPath": "C:\\Users\\xnqpp\\Documents\\GitHub\\CSharp_report\\Part_3\\0522_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xnqpp\\AppData\\Roaming\\NuGet\\NuGet.Config",
