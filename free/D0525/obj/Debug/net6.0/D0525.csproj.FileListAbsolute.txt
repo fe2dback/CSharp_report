@@ -1,0 +1,15 @@
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\D0525\obj\Debug\net6.0\D0525.csproj.AssemblyReference.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\D0525\obj\Debug\net6.0\D0525.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\D0525\obj\Debug\net6.0\D0525.AssemblyInfoInputs.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\D0525\obj\Debug\net6.0\D0525.AssemblyInfo.cs
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\D0525\obj\Debug\net6.0\D0525.csproj.CoreCompileInputs.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\D0525\bin\Debug\net6.0\D0525.exe
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\D0525\bin\Debug\net6.0\D0525.deps.json
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\D0525\bin\Debug\net6.0\D0525.runtimeconfig.json
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\D0525\bin\Debug\net6.0\D0525.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\D0525\bin\Debug\net6.0\D0525.pdb
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\D0525\obj\Debug\net6.0\D0525.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\D0525\obj\Debug\net6.0\refint\D0525.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\D0525\obj\Debug\net6.0\D0525.pdb
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\D0525\obj\Debug\net6.0\D0525.genruntimeconfig.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\D0525\obj\Debug\net6.0\ref\D0525.dll

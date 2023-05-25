@@ -13,3 +13,5 @@ C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Hangman\project_H\obj\Debug\
 C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Hangman\project_H\obj\Debug\net6.0\project_H.pdb
 C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Hangman\project_H\obj\Debug\net6.0\project_H.genruntimeconfig.cache
 C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Hangman\project_H\obj\Debug\net6.0\ref\project_H.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Hangman\project_H\bin\Debug\net6.0\Figgle.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\Hangman\project_H\obj\Debug\net6.0\project_H.csproj.CopyComplete
