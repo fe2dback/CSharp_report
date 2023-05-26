@@ -164,7 +164,7 @@ namespace project_H
             {
                 string value = key.key_Value();
                 Console.SetCursorPosition(0, 4);
-
+                
                 //입력값과 단어 스펠링 비교
                 if (char_L.Contains(char.Parse(value)))
                 {
@@ -184,12 +184,13 @@ namespace project_H
                         {
                             if (multi == true)
                             {
+                                GameManager.complete(diff_next, word, true);
                                 GameManager.multi();
                             }
                             else
                             {
                                 score.score();
-                                GameManager.complete(diff_next, word);
+                                GameManager.complete(diff_next, word, false);
                             }
 
                         }

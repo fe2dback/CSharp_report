@@ -91,12 +91,36 @@ namespace project_H
                 case ConsoleKey.Z:
                     return "Z";
                     break;
+                case ConsoleKey.Escape:
+                    escape();
+                    return null;
+                    break;
                 default:
                     return key_Value();
                     break;
 
             }
         }
+        static void escape()
+        {
+            Console.Clear();
+            Console.WriteLine("ESCAPE?");
+            Console.WriteLine("PRESS : ENTER");
 
+            ConsoleKeyInfo key = Console.ReadKey();
+            switch (key.Key)
+            {
+                case ConsoleKey.Enter:
+                    Console.Clear();
+                    GameManager.selete_mode();
+                    break;
+                default:
+                    escape();
+                    break;
+            }
+
+
+
+        }
     }
 }

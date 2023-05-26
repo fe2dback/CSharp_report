@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xVaOHu3lzhX83uL4DzUA+mEkf5iIxgUicnSZsfJPDWslAPkOiGffKRGYMk2kv+tdYl70AEQS9AEeSEXIRayqSQ==",
+  "dgSpecHash": "fjnL2P4/ekNeDP42J9OyZ6eTR3bXrlc98HXKa67m6sNNYICH9/eCBf+nNVN4UdYrCMXomt+CcG2cv5lC3jyjig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\xnqpp\\OneDrive\\문서\\GitHub\\CSharp_report\\Hangman\\project_H\\project_H.csproj",
+  "projectFilePath": "C:\\Users\\xnqpp\\Documents\\GitHub\\CSharp_report\\Hangman\\project_H\\project_H.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xnqpp\\.nuget\\packages\\figgle\\0.5.1\\figgle.0.5.1.nupkg.sha512"
   ],

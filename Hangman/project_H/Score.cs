@@ -15,6 +15,7 @@ namespace project_H
             this.result++;
         }
 
+
         public void dead()
         {
             if (this.result > bestscore)

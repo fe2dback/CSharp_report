@@ -42,11 +42,20 @@ namespace project_H
                     this.category = "c#language";
                     return keywords();
                     break;
+                case 100:
+                    this.category = "debug";
+                    return testfile();
                 default:
                     return "";
                     break;
             }
 
+        }
+
+        static string testfile()
+        {
+            string path = @"../../../../test.txt";
+            return pick_word(path);
         }
 
         static string fruits()

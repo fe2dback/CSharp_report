@@ -12,6 +12,7 @@ namespace project_H
         static void Main(string[] args)
         {
             //시작시 난이도를 설정합니다
+            Console.CursorVisible = false;
             selete_mode();
         }
 
@@ -26,15 +27,18 @@ namespace project_H
                 isGame.check(); //플레이어의 입력을받고 이를 체크합니다
             }
         }
-        static void selete_mode()
+        public static void selete_mode()
         {
-            Console.CursorVisible = false;
-            Console.WriteLine("게임 모드를 선택하세요 . . .\n");
+            string title = FiggleFonts.Standard.Render("H A N G - M A N");
+            Console.Write(title);
+            Thread.Sleep(500);
+            Console.WriteLine("\n게임 모드를 선택하세요 . . .\n");
+            Thread.Sleep(500);
             Console.WriteLine("[1]Classic\n");
+            Thread.Sleep(500);
             Console.WriteLine("[2]Multiplay");
             ConsoleKeyInfo diff = Console.ReadKey();
             Console.Clear();
-
             switch (diff.Key)
             {
                 case ConsoleKey.D1:
@@ -44,7 +48,6 @@ namespace project_H
                 case ConsoleKey.D2:
                     check_draw.Setuser(true);
                     multi();
-                    OnGame(8);
                     break;
                 default:
                     selete_mode();
@@ -53,39 +56,48 @@ namespace project_H
         }
         public static void multi()
         {
+            check_draw.Setuser(true);
             Console.Clear();
+            Console.Write("MultiPlay MODE\n\n");
             Console.Write("word? : ");
             string text = Console.ReadLine();
-            check_draw.SetWord(text.ToUpper());
-            check_draw.SetWord_category("answer");
-            Console.Clear();   
+            if(text.Length <= 0)
+            {
+                Console.WriteLine("To short!");
+                multi();
+            }
+            else
+            {
+                check_draw.SetWord(text.ToUpper());
+                check_draw.SetWord_category("answer");
+                Console.Clear();
+                OnGame(8);
+            }
+            
         }
 
-        public static void multi_die()
-        {
 
-        }
-
-        public static void complete(int diff, string answer)
+        public static void complete(int diff, string answer, bool multi)
         {
             Console.Clear();
-
+            
             string asciiArt = FiggleFonts.Standard.Render("COMPLETE");
             Console.Write(asciiArt);
             Console.SetCursorPosition(1, 7);
             Console.WriteLine(answer);
             Thread.Sleep(1000);
+            if(multi == false)
+            {
+                //초기화 그룹-------------------------------------
+                StringGroup init = new StringGroup();
+                check_draw.SetWord(init.text());
+                check_draw.SetWord_category(init.text_category());
+                //------------------------------------------------
 
-            //초기화 그룹-------------------------------------
-            StringGroup init = new StringGroup();
-            check_draw.SetWord(init.text());
-            check_draw.SetWord_category(init.text_category());
-            //------------------------------------------------
+                Console.Clear();
 
-            Console.Clear();
-
-            OnGame(diff);
-            
+                OnGame(diff);
+            }
         }
 
         public static void Die()
@@ -95,8 +107,10 @@ namespace project_H
                 Console.Clear();
                 string die = FiggleFonts.Standard.Render("DEAD . . .");
                 Console.Write(die);
+                Thread.Sleep(500);
                 string best_score = FiggleFonts.Standard.Render($"BEST SCORE : {Score.bestscore}");
                 Console.Write(best_score);
+                Thread.Sleep(500);
                 Console.WriteLine("\nREPLAY?\n");
                 Console.WriteLine("CONTINUE PRESS : R");
 
