@@ -1,6 +1,6 @@
 ﻿using Figgle;
 using static System.Net.Mime.MediaTypeNames;
-//Install-Package Figgle
+
 
 namespace project_H
 {

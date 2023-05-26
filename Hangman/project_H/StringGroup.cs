@@ -54,31 +54,31 @@ namespace project_H
 
         static string testfile()
         {
-            string path = @"../../../../test.txt";
+            string path = @"../../../../text/test.txt";
             return pick_word(path);
         }
 
         static string fruits()
         {
-            string path = @"../../../../fruit.txt";
+            string path = @"../../../../text/fruit.txt";
             return pick_word(path);
 
         }
         static string worlds()
         {
-            string path = @"../../../../world.txt";
+            string path = @"../../../../text/world.txt";
             return pick_word(path);
         }
 
         static string sports()
         {
-            string path = @"../../../../sport.txt";
+            string path = @"../../../../text/sport.txt";
             return pick_word(path);
         }
 
         static string keywords()
         {
-            string path = @"../../../../language.txt";
+            string path = @"../../../../text/language.txt";
             return pick_word(path);
         }
 

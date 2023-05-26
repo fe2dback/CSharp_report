@@ -74,7 +74,7 @@ namespace project_H
             }
             #region 알파벳 생성
             Console.SetCursorPosition(0, 9); // 알파벳 위치
-            string[] words = File.ReadAllLines(@"../../../../alphabet.txt");
+            string[] words = File.ReadAllLines(@"../../../../text/alphabet.txt");
             string[] value = new string[words.Length];
             if (words.Length > 0)
             {
@@ -108,7 +108,7 @@ namespace project_H
         {
             // 알파벳
             Console.SetCursorPosition(0, 9); // 알파벳 위치
-            string[] words = File.ReadAllLines(@"../../../../alphabet.txt");
+            string[] words = File.ReadAllLines(@"../../../../text/alphabet.txt");
             string[] value = new string[words.Length];
             if (words.Length > 0)
             {
