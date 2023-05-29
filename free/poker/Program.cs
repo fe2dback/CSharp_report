@@ -6,6 +6,8 @@ namespace poker
 {
     class main
     {
+
+        static Random random = new Random();
         public enum suit { S, D, H, C };
         public struct Card
         {
@@ -17,8 +19,17 @@ namespace poker
         public static int player = 5;
         static void Main(string[] args)
         {
-            Cards();
-            shuffle();
+            for(int i = 0 ; i < 100; i++)
+            {
+                Cards();
+                showcard();
+                Console.WriteLine();
+                shuffle();
+                Console.WriteLine();
+                Thread.Sleep(3000);
+                Console.Clear();
+            }
+            
         }
 
         static void Cards()
@@ -28,7 +39,6 @@ namespace poker
             for (int i = 0; i < card.Length; i++)
             {
                 num++;
-                card[i] = new Card();
                 card[i].suit = suit.S + cardnum;
                 card[i].number = num;
                 if (num >= 13)
@@ -36,6 +46,14 @@ namespace poker
                     num = 0;
                     cardnum++;
                 }
+            }
+            
+        }
+
+        static void showcard()
+        {
+            for(int i = 0; i < card.Length;i++)
+            {
                 Console.Write($"{card[i].suit} {card[i].number}.");
                 if (card[i].number > 12)
                 {
@@ -43,33 +61,110 @@ namespace poker
                 }
             }
         }
+
         static void shuffle()
         {
+            int line = 0;
+            List<Card> list = new List<Card>();
+            List<Card> cards = new List<Card>();
+            for (int i = 0; i < card.Length; ++i)
+            {
+                list.Add(card[i]);
+            }
+            for (int i = list.Count; i > 0; i--)
+            {
+                int c = random.Next(0, i);
+                Console.Write($"{list[c].suit} {list[c].number}.");
+                cards.Add(list[c]);
+                list.Remove(list[c]);
+                line++;
+                if (line % 13 == 0)
+                {
+                    Console.WriteLine();
+                }
+            }
 
+            Console.WriteLine();
+            Distribute(cards);
         }
 
-        static void give()
-        {                                                   
-            Random random = new Random();
-            Card[] cardi = new Card[52];
-            for(int i = 0; i < cardi.Length; i++)
+
+        #region 수정중
+        static void Distribute(List<Card> list)
+        {
+            for (int i = 0; i < player; i++)
             {
-                cardi[i] = card[random.Next(card.Length)];
-            }
-            int num = 0;
-            for(int j = 0; j < player; j++)
-            {
-                Console.Write($"player{j} ");
-                for (int i = 1; i < player; i++)
+                Console.Write($"Player {i + 1}: ");
+                Card[] playerCards = new Card[5];
+                for (int j = 0; j < 5; j++)
                 {
-                    int rand = random.Next(card.Length);
-                    Console.Write($"{cardi[rand].suit} {cardi[rand].number}.");
+                    playerCards[j] = list[i * 5 + j];
+                    Console.Write($"{list[i * 5 + j].suit} {list[i * 5 + j].number}.");
                 }
-                Console.WriteLine();
+                CheckCard(playerCards);
+            }
+        }
+        #endregion
+        static void CheckCard(Card[] playerCards)
+        {
+
+            switch (checkOnePair(playerCards))
+            {
+                case "onepair":
+                    Console.WriteLine("One Pair");
+                    break;
+                case "twopair":
+                    Console.WriteLine("Two Pair");
+                    break;
+                case "triple":
+                    Console.WriteLine("Triple");
+                    break;
+                default:
+                    Console.WriteLine("No Pair");
+                    break;
+            }
+            Console.WriteLine();
+        }
+
+        static string checkTwoPair(Card[] cards)
+        {
+            int count = 0;
+            for (int i = 0; i < cards.Length; i++)
+            {
+                for (int j = i + 1; j < cards.Length; j++)
+                {
+                    if (cards[i].number == cards[j].number)
+                    {
+                        ++count;     
+                    }
+                    
+                } 
+                
+            }
+            if (count == 2)
+            {
+                return "twopair";
+            }
+            else
+            {
+                return checkOnePair(cards);
             }
             
         }
+
+        static string checkOnePair(Card[] cards)
+        {
+            for (int i = 0; i < cards.Length; i++)
+            {
+                for (int j = i + 1; j < cards.Length; j++)
+                {
+                    if (cards[i].number == cards[j].number)
+                    {
+                        return "onepair";
+                    }
+                }
+            }
+            return "";
+        }
     }
-
-
 }
