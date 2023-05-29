@@ -1,0 +1,15 @@
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\poker\bin\Debug\net6.0\poker.exe
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\poker\bin\Debug\net6.0\poker.deps.json
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\poker\bin\Debug\net6.0\poker.runtimeconfig.json
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\poker\bin\Debug\net6.0\poker.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\poker\bin\Debug\net6.0\poker.pdb
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\poker\obj\Debug\net6.0\poker.csproj.AssemblyReference.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\poker\obj\Debug\net6.0\poker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\poker\obj\Debug\net6.0\poker.AssemblyInfoInputs.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\poker\obj\Debug\net6.0\poker.AssemblyInfo.cs
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\poker\obj\Debug\net6.0\poker.csproj.CoreCompileInputs.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\poker\obj\Debug\net6.0\poker.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\poker\obj\Debug\net6.0\refint\poker.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\poker\obj\Debug\net6.0\poker.pdb
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\poker\obj\Debug\net6.0\poker.genruntimeconfig.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\poker\obj\Debug\net6.0\ref\poker.dll
