@@ -1,0 +1,15 @@
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\mid\obj\Debug\net6.0\mid.csproj.AssemblyReference.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\mid\obj\Debug\net6.0\mid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\mid\obj\Debug\net6.0\mid.AssemblyInfoInputs.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\mid\obj\Debug\net6.0\mid.AssemblyInfo.cs
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\mid\obj\Debug\net6.0\mid.csproj.CoreCompileInputs.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\mid\bin\Debug\net6.0\mid.exe
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\mid\bin\Debug\net6.0\mid.deps.json
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\mid\bin\Debug\net6.0\mid.runtimeconfig.json
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\mid\bin\Debug\net6.0\mid.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\mid\bin\Debug\net6.0\mid.pdb
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\mid\obj\Debug\net6.0\mid.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\mid\obj\Debug\net6.0\refint\mid.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\mid\obj\Debug\net6.0\mid.pdb
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\mid\obj\Debug\net6.0\mid.genruntimeconfig.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\mid\obj\Debug\net6.0\ref\mid.dll
