@@ -1,0 +1,15 @@
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\learntoclass\bin\Debug\net6.0\learntoclass.exe
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\learntoclass\bin\Debug\net6.0\learntoclass.deps.json
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\learntoclass\bin\Debug\net6.0\learntoclass.runtimeconfig.json
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\learntoclass\bin\Debug\net6.0\learntoclass.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\learntoclass\bin\Debug\net6.0\learntoclass.pdb
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\learntoclass\obj\Debug\net6.0\learntoclass.csproj.AssemblyReference.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\learntoclass\obj\Debug\net6.0\learntoclass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\learntoclass\obj\Debug\net6.0\learntoclass.AssemblyInfoInputs.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\learntoclass\obj\Debug\net6.0\learntoclass.AssemblyInfo.cs
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\learntoclass\obj\Debug\net6.0\learntoclass.csproj.CoreCompileInputs.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\learntoclass\obj\Debug\net6.0\learntoclass.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\learntoclass\obj\Debug\net6.0\refint\learntoclass.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\learntoclass\obj\Debug\net6.0\learntoclass.pdb
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\learntoclass\obj\Debug\net6.0\learntoclass.genruntimeconfig.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\learntoclass\obj\Debug\net6.0\ref\learntoclass.dll
