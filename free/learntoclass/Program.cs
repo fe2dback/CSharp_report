@@ -38,8 +38,34 @@
 
     class Program
     {
+        static void v()
+        {
+            Random random = new Random();
+            List<int> lotto = new List<int>();
+            int num = 0;
+            while (true)
+            {
+                num = random.Next(1, 46);
+                if (!lotto.Contains(num))
+                {
+                    lotto.Add(num);
+                    if (lotto.Count == 6)
+                    {
+                        break;
+                    }
+                }
+            }
+            foreach (int item in lotto)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
+
         static void Main(string[] args)
         {
+            v();
+            /*
             Animal dog = new Dog();
             Animal cat = new Cat();
 
@@ -90,9 +116,8 @@
             }
         }
         
-          
-            
+          */
+
+        }
     }
-
-
-}
+}   
