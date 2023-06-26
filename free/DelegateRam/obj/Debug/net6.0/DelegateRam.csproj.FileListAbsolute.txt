@@ -1,0 +1,15 @@
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\DelegateRam\bin\Debug\net6.0\DelegateRam.exe
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\DelegateRam\bin\Debug\net6.0\DelegateRam.deps.json
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\DelegateRam\bin\Debug\net6.0\DelegateRam.runtimeconfig.json
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\DelegateRam\bin\Debug\net6.0\DelegateRam.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\DelegateRam\bin\Debug\net6.0\DelegateRam.pdb
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\DelegateRam\obj\Debug\net6.0\DelegateRam.csproj.AssemblyReference.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\DelegateRam\obj\Debug\net6.0\DelegateRam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\DelegateRam\obj\Debug\net6.0\DelegateRam.AssemblyInfoInputs.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\DelegateRam\obj\Debug\net6.0\DelegateRam.AssemblyInfo.cs
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\DelegateRam\obj\Debug\net6.0\DelegateRam.csproj.CoreCompileInputs.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\DelegateRam\obj\Debug\net6.0\DelegateRam.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\DelegateRam\obj\Debug\net6.0\refint\DelegateRam.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\DelegateRam\obj\Debug\net6.0\DelegateRam.pdb
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\DelegateRam\obj\Debug\net6.0\DelegateRam.genruntimeconfig.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\DelegateRam\obj\Debug\net6.0\ref\DelegateRam.dll

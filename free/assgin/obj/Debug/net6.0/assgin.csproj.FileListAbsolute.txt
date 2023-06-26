@@ -1,0 +1,15 @@
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\assgin\bin\Debug\net6.0\assgin.exe
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\assgin\bin\Debug\net6.0\assgin.deps.json
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\assgin\bin\Debug\net6.0\assgin.runtimeconfig.json
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\assgin\bin\Debug\net6.0\assgin.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\assgin\bin\Debug\net6.0\assgin.pdb
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\assgin\obj\Debug\net6.0\assgin.csproj.AssemblyReference.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\assgin\obj\Debug\net6.0\assgin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\assgin\obj\Debug\net6.0\assgin.AssemblyInfoInputs.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\assgin\obj\Debug\net6.0\assgin.AssemblyInfo.cs
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\assgin\obj\Debug\net6.0\assgin.csproj.CoreCompileInputs.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\assgin\obj\Debug\net6.0\assgin.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\assgin\obj\Debug\net6.0\refint\assgin.dll
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\assgin\obj\Debug\net6.0\assgin.pdb
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\assgin\obj\Debug\net6.0\assgin.genruntimeconfig.cache
+C:\Users\xnqpp\OneDrive\문서\GitHub\CSharp_report\free\assgin\obj\Debug\net6.0\ref\assgin.dll

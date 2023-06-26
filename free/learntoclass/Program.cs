@@ -38,8 +38,40 @@
 
     class Program
     {
+        static void 문제18()
+        {
+            Random random = new Random();
+            List<int> number = new List<int>();
+            List<int> lotto = new List<int>();
+            int num = 0;
+
+            for(int i = 1; i < 46; i++)
+            {
+                number.Add(i);
+            }
+
+            while(true)
+            {
+                num = number[random.Next(number.Count)];
+                if(!lotto.Contains(num))
+                {
+                    lotto.Add(num);
+                    if(lotto.Count == 6)
+                    {
+                        break;
+                    }
+                }
+            }
+
+            foreach(int item in lotto)
+            {
+                Console.WriteLine(item);
+            }
+        }
         static void Main(string[] args)
         {
+            문제18();
+
             Animal dog = new Dog();
             Animal cat = new Cat();
 
