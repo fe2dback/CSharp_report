@@ -38,6 +38,7 @@
 
     class Program
     {
+<<<<<<< HEAD
         static void 문제18()
         {
             Random random = new Random();
@@ -57,21 +58,48 @@
                 {
                     lotto.Add(num);
                     if(lotto.Count == 6)
+=======
+        static void v()
+        {
+            Random random = new Random();
+            List<int> lotto = new List<int>();
+            int num = 0;
+            while (true)
+            {
+                num = random.Next(1, 46);
+                if (!lotto.Contains(num))
+                {
+                    lotto.Add(num);
+                    if (lotto.Count == 6)
+>>>>>>> dd9d4d41bfc3692eed562c9d4b596442f4180f16
                     {
                         break;
                     }
                 }
             }
+<<<<<<< HEAD
 
             foreach(int item in lotto)
+=======
+            foreach (int item in lotto)
+>>>>>>> dd9d4d41bfc3692eed562c9d4b596442f4180f16
             {
                 Console.WriteLine(item);
             }
         }
+<<<<<<< HEAD
         static void Main(string[] args)
         {
             문제18();
 
+=======
+
+
+        static void Main(string[] args)
+        {
+            v();
+            /*
+>>>>>>> dd9d4d41bfc3692eed562c9d4b596442f4180f16
             Animal dog = new Dog();
             Animal cat = new Cat();
 
@@ -122,9 +150,8 @@
             }
         }
         
-          
-            
+          */
+
+        }
     }
-
-
-}
+}   
