@@ -1,0 +1,15 @@
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\wordrow\bin\Debug\net6.0\wordrow.exe
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\wordrow\bin\Debug\net6.0\wordrow.deps.json
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\wordrow\bin\Debug\net6.0\wordrow.runtimeconfig.json
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\wordrow\bin\Debug\net6.0\wordrow.dll
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\wordrow\bin\Debug\net6.0\wordrow.pdb
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\wordrow\obj\Debug\net6.0\wordrow.csproj.AssemblyReference.cache
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\wordrow\obj\Debug\net6.0\wordrow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\wordrow\obj\Debug\net6.0\wordrow.AssemblyInfoInputs.cache
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\wordrow\obj\Debug\net6.0\wordrow.AssemblyInfo.cs
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\wordrow\obj\Debug\net6.0\wordrow.csproj.CoreCompileInputs.cache
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\wordrow\obj\Debug\net6.0\wordrow.dll
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\wordrow\obj\Debug\net6.0\refint\wordrow.dll
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\wordrow\obj\Debug\net6.0\wordrow.pdb
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\wordrow\obj\Debug\net6.0\wordrow.genruntimeconfig.cache
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\wordrow\obj\Debug\net6.0\ref\wordrow.dll

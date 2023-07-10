@@ -1,0 +1,15 @@
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\bbs\bin\Debug\net6.0\bbs.exe
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\bbs\bin\Debug\net6.0\bbs.deps.json
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\bbs\bin\Debug\net6.0\bbs.runtimeconfig.json
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\bbs\bin\Debug\net6.0\bbs.dll
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\bbs\bin\Debug\net6.0\bbs.pdb
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\bbs\obj\Debug\net6.0\bbs.csproj.AssemblyReference.cache
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\bbs\obj\Debug\net6.0\bbs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\bbs\obj\Debug\net6.0\bbs.AssemblyInfoInputs.cache
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\bbs\obj\Debug\net6.0\bbs.AssemblyInfo.cs
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\bbs\obj\Debug\net6.0\bbs.csproj.CoreCompileInputs.cache
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\bbs\obj\Debug\net6.0\bbs.dll
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\bbs\obj\Debug\net6.0\refint\bbs.dll
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\bbs\obj\Debug\net6.0\bbs.pdb
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\bbs\obj\Debug\net6.0\bbs.genruntimeconfig.cache
+C:\Users\xnqpp\Documents\GitHub\CSharp_report\Part_3\bbs\obj\Debug\net6.0\ref\bbs.dll
